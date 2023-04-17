@@ -31,7 +31,7 @@ El cambio de idioma desde el front se realiza desde la barra de menu, icono de c
 
 ## Soporte HTML
 
-Se soporta HTML usando el Property Binding "innerHTML". 
+Se soporta HTML en las cadenas de traduccion usando el Property Binding "innerHTML" en el elemento html. 
 
 **Ejemplo**
 
