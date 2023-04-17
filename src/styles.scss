@@ -47,16 +47,6 @@ main.section-content {
 }
 
 
-.nav-link {
-    &.active {
-        background-color: #fff !important;        
-        border: 0px solid $nav-link-active-bg !important;       
-        color: $txt-color; 
-        border-radius: 0px !important; 
-        border-bottom: 1px solid #fff !important;
-        font-weight: 600 !important;
-    }
-}
 
 .nav-pills {
     background: #e6f2f4;
@@ -68,7 +58,7 @@ main.section-content {
         color: $txt-color-aux !important;
         width: 100%;                
         font-size: 15px;
-        padding: 11px 0px !important;
+        padding: 11px 11px !important;
         font-weight: 300;
         border-radius: 0px !important;
         border-bottom: 1px solid #cedfe2;
@@ -79,6 +69,15 @@ main.section-content {
                 border-radius: 5px;
             }
         }   
+        &.active {
+            background-color: #fff !important;        
+            border: 0px solid $nav-link-active-bg !important;       
+            color: $txt-color; 
+            border-radius: 0px !important; 
+            border-bottom: 1px solid #fff !important;
+            font-weight: 600 !important;
+            font-size: 15px;
+        }
 
     }
 
