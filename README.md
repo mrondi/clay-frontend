@@ -24,7 +24,7 @@ http://64.227.28.218
 - Bootstrap 5 como libreria de UI.
 - Material Symbols Font como libreria de iconos.
 
-## Cambiar de Idoma
+## Cambiar de Idioma
 
 El cambio de idioma desde el front se realiza desde la barra de menu, icono de configurar ⚙️
 
