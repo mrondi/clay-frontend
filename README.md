@@ -7,7 +7,7 @@
 
 ## Deploy Productivo
 
-El frontend fue desarrollado en Angular 14 y esta desplegado en un Droplet en la nube de Digital Ocean bajo Apache 2.
+El frontend fue desarrollado en Angular 14 y esta desplegado en un Droplet de Digital Ocean bajo Apache 2.
 
 ## URL Productivo
 http://64.227.28.218
