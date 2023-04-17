@@ -1,0 +1,40 @@
+
+
+<ng-container *ngIf="locales">
+
+    <div class="section-title">
+        <span class="material-symbols-rounded">monetization_on</span>
+        <h1>
+            {{'flujo_caja' | lang : lang : locales}}
+        </h1>
+    </div>
+
+    <ul class="nav nav-pills nav-fill" id="types">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">{{'flujo_caja' | lang : lang : locales}}</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">{{'ventas' | lang : lang : locales}}</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">{{'compras' | lang : lang : locales}}</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">{{'honorarios' | lang : lang : locales}}</a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">{{'supuestos' | lang : lang : locales}}</a>
+        </li>
+    </ul>
+
+    <main class="section-content">
+        <div class="text-center">
+            <img src="/assets/money_vector.jpg" width="460">
+
+            <p>{{'tip_flujo' | lang : lang : locales}}</p>
+
+            <button class="btn  btn-primary">{{'btn_comenzar' | lang : lang : locales}}</button>
+        </div>
+    </main>
+
+</ng-container> 

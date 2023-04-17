@@ -1,1 +1,95 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0');
+
+
+
+$nav-link-active-bg: #14a6b8;
+$txt-color: #05636e;
+$txt-color-aux: #4996a0 ;
+$bg-light: #e7fcff;
+
+html, body { height: 100%; }
+body { 
+    margin: 0; 
+    font-family: Assistant; 
+    background-image: url('./assets/stacked-waves-haikei.png');
+    background-size: cover;
+}
+
+* {
+    font-family: Assistant; 
+}
+
+.section-title {
+    display: flex;
+    background: $bg-light;
+    padding: 20px 14px 15px 14px;
+    color: $txt-color;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 1px solid #e5eaea;
+    h1 {
+        font-weight: 600;
+        font-size: 25px;
+        margin-left: 5px;
+    }
+    .material-symbols-rounded {
+        font-size: 26px;
+        margin: 3px;
+    }
+}
+
+main.section-content {
+    padding: 32px 52px;
+}
+
+
+.nav-link {
+    &.active {
+        background-color: #fff !important;        
+        border: 0px solid $nav-link-active-bg !important;       
+        color: $txt-color; 
+        border-radius: 0px !important; 
+        border-bottom: 1px solid #fff !important;
+        font-weight: 600 !important;
+    }
+}
+
+.nav-pills {
+    background: #e6f2f4;
+    text-transform: uppercase !important;
+    .nav-item {
+        border-right: 1px solid #cedfe2;
+    }
+    .nav-link {
+        color: $txt-color-aux !important;
+        width: 100%;                
+        font-size: 15px;
+        padding: 11px 0px !important;
+        font-weight: 300;
+        border-radius: 0px !important;
+        border-bottom: 1px solid #cedfe2;
+        &:hover {
+            background-color: #e1eef0;                                
+            cedfe2
+            &.active {
+                border-radius: 5px;
+            }
+        }   
+
+    }
+
+}
+
+.btn-primary {
+    background-color: $nav-link-active-bg;
+    border: none;
+    padding: 8px 20px;
+    font-weight: bold;
+    &:hover {
+        background-color: #05636e;
+    }
+}
