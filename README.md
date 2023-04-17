@@ -13,6 +13,9 @@
 
 El frontend fue desarrollado en **Angular 14** y esta desplegado en un Droplet de **Digital Ocean** bajo **Apache 2**.
 
+<img width="100%" alt="Captura de pantalla 2023-04-17 a las 18 15 27" src="https://user-images.githubusercontent.com/898971/232612480-14032e4d-b060-469f-881b-dfe73588c4d0.png">
+
+
 ## URL Productivo
 http://64.227.28.218
 
