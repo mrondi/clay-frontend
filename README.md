@@ -22,4 +22,4 @@ http://64.227.28.218
 
 ## Cambiar de Idoma
 
-El cambio de idoma desde el front se realiza desde la barra de menu, icono de configurar ⚙️
+El cambio de idioma desde el front se realiza desde la barra de menu, icono de configurar ⚙️
