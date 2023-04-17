@@ -19,7 +19,7 @@ http://64.227.28.218
 - Al inicializar cada componente o modulo se hace un request al Api Locale para obtener las cadenas correspondientes solo a ese componente.
 - Si la cadena de traduccion no se encuentra para el idioma seleccionado se mostrara por defecto la cadena en idioma español, en caso de no encontrarse en español se mostrara su "key".
 - Bootstrap 5 como libreria de UI.
-- Material Symbols Font como liberia de iconos.
+- Material Symbols Font como libreria de iconos.
 
 ## Cambiar de Idoma
 
