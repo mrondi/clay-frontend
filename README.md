@@ -25,6 +25,12 @@ http://64.227.28.218
 
 El cambio de idioma desde el front se realiza desde la barra de menu, icono de configurar ⚙️
 
-## TODO: Soporte HTML
+## Soporte HTML
 
-Se podria ver la forma de agregar soporte HTML en las cadenas de traducción.
+Se soporte HTML usando el Property Binding "innerHTML". 
+
+**Ejemplo**
+
+```html
+    <p [innerHTML]="'tip_flujo' | lang : lang : locales"></p>
+```

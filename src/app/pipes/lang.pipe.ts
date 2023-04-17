@@ -1,4 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
+import { DomSanitizer, SafeHtml } from '@angular/platform-browser';  
+
 
 @Pipe({
   name: 'lang'
@@ -6,7 +8,9 @@ import { Pipe, PipeTransform } from '@angular/core';
 
 export class LangPipe implements PipeTransform {
 
-  transform(str_key: string, lang: string, locales: any): unknown {
+  constructor(private _sanitizer: DomSanitizer) { }  
+
+  transform(str_key: string, lang: string, locales: any): SafeHtml  {
     
     let returnValue  = str_key;
 

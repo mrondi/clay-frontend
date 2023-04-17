@@ -31,7 +31,7 @@
         <div class="text-center">
             <img src="/assets/money_vector.jpg" width="460">
 
-            <p>{{'tip_flujo' | lang : lang : locales}}</p>
+            <p [innerHTML]="'tip_flujo' | lang : lang : locales"></p>
 
             <button class="btn  btn-primary">{{'btn_comenzar' | lang : lang : locales}}</button>
         </div>
