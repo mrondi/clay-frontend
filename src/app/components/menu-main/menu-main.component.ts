@@ -18,7 +18,7 @@ export class MenuMainComponent implements OnInit {
      this.locales = this.localeService.transformForView(response);
    });
 
- }
+  }
 
 
  ngOnInit(): void {

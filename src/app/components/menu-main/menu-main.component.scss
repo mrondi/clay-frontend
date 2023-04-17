@@ -45,6 +45,7 @@
         position: absolute;
         right: 23px;
         color: #2d6064;
+        top: 18px;
      }
 
 }
@@ -57,26 +58,26 @@ h3 {
 
 
 .lang {
-    padding: 6px;
-    border: 2px solid #f2f2f2;
-    margin-bottom: 4px;
+    padding: 10px 10px;
+    border: 1px solid #f2f2f2;
+    margin-bottom: 8px;
     border-radius: 5px;
-    display: flex;
+    display: flex;    
     cursor: pointer;
     &.active {
-        border-color: #05636d;  
+        border-color: #047f98;  
         background-color: #e7fcfe;   
     }
     &:hover {
         border-color: #067c89;  
     }
     .flag {
-        width: 80px;
+        width: 60px;
         border-radius: 4px;
     }
     span {
         display: inline-block;
-        margin: 13px 0px 0px 18px;
-        font-weight: 600;
+        margin: 8px 0px 0px 13px;
+        font-weight: 900;
     }
 }
