@@ -14,7 +14,7 @@ http://64.227.28.218
 
 ## Consideraciones
 
-- Display del las traducciones mediante un custom Pipe de Angular. 
+- Display de las traducciones mediante un custom Pipe de Angular. 
 - El lenguaje seleccionado es un observable en todo el app.
 - Al inicializar cada componente o modulo se hace un request al Api Locale para obtener las cadenas correspondientes solo a ese componente.
 - Si la cadena de traduccion no se encuentra para el idioma seleccionado se mostrara por defecto la cadena en idioma español, en caso de no encontrarse en español se mostrara su "key".
