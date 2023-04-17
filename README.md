@@ -19,7 +19,7 @@ http://64.227.28.218
 ## Consideraciones
 
 - Display de las traducciones mediante un custom Pipe de Angular. 
-- El lenguaje seleccionado es un observable en todo el app.
+- El lenguaje seleccionado es un observable injectado como servicio en todo el app.
 - Al inicializar cada componente o modulo se hace un request al Api Locale para obtener las cadenas correspondientes solo a ese componente.
 - Si la cadena de traduccion no se encuentra para el idioma seleccionado se mostrara por defecto la cadena en idioma español, en caso de no encontrarse en español se mostrara su "key".
 - Bootstrap 5 como libreria de UI.
@@ -27,7 +27,7 @@ http://64.227.28.218
 
 ## Cambiar de Idioma
 
-El cambio de idioma desde el front se realiza desde la barra de menu, icono de configurar ⚙️
+El cambio de idioma desde el front se realiza desde la barra de menu, icono de configurar ⚙️ .
 
 ## Soporte HTML
 
