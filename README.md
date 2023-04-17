@@ -19,3 +19,7 @@ http://64.227.28.218
 - Si la cadena de traduccion no se encuentra para el idioma seleccionado se mostrara por defecto la cadena en idioma español, en caso de no encontrarse en español se mostrara su "key".
 - Bootstrap 5 como libreria de UI.
 - Material Symbols Font como liberia de iconos.
+
+## Cambiar de Idoma
+
+El cambio de idoma desde el front se realiza desde la barra de menu, icono de configurar ⚙️
