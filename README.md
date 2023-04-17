@@ -1,3 +1,6 @@
+
+<img width="100%" alt="Captura de pantalla 2023-04-17 a las 09 08 22" src="https://user-images.githubusercontent.com/898971/232479671-437b0447-1b36-40f0-9616-4e1fef0fc673.png">
+
 ## Instalación
 
 1. Instalar Angular de manera global con "npm install -g @angular/cli".
