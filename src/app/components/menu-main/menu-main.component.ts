@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { LocaleService } from '../../services/locale.service';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { ConfigComponent } from '../config/config.component';
 
 @Component({
   selector: 'app-menu-main',
@@ -13,21 +15,16 @@ export class MenuMainComponent implements OnInit {
   lang: string = '';
   locales: any;
 
-  constructor(private localeService: LocaleService) {     
-    this.localeService.getByModule('menu').subscribe((response) =>  {
-     this.locales = this.localeService.transformForView(response);
-   });
+  constructor(private modalService: NgbModal) {     }
 
+  openConfigModel(){
+
+    const modalRef = this.modalService.open(ConfigComponent, {  size: 'md', centered: true});
+  
   }
 
-
  ngOnInit(): void {
-  this.localeService.currentLang$.subscribe(lang => {
-    this.lang = lang;
-  });
+
  }
 
- setLang(iso:string) {
-  this.localeService.setLang(iso);
- }
 }

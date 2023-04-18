@@ -1,0 +1,24 @@
+<ng-container  *ngIf="!locales">
+    <div class="text-center">
+        <img src="/assets/loading_icon.gif" width="150" />
+    </div>
+</ng-container>
+
+<ng-container  *ngIf="locales">
+    <div class="modal-body">        
+        <div class="p-2 mt-1">
+            <div class="w-100 lang"  [ngClass]="{active: lang === 'es'}"  data-bs-dismiss="modal"  (click)="setLang('es')">
+                <img src="/assets/flag_es.png" class="flag" />
+                <span>{{'lang_es' | lang : lang : locales}}</span>                
+            </div>
+            <div class="w-100 lang"  [ngClass]="{active: lang === 'en'}"  data-bs-dismiss="modal" (click)="setLang('en')">
+                <img src="/assets/flag_en.png" class="flag" />
+                <span>{{'lang_en' | lang : lang : locales}}</span>                
+            </div>    
+            <div class="w-100 lang" [ngClass]="{active: lang === 'pt'}"  data-bs-dismiss="modal" (click)="setLang('pt')">
+                <img src="/assets/flag_pt.png" class="flag" />
+                <span>{{'lang_pt' | lang : lang : locales}}</span>                
+            </div>                     
+        </div>  
+    </div> 
+</ng-container>
