@@ -13,7 +13,7 @@ export class ConfigComponent implements OnInit {
   locales: any;
 
   constructor(private localeService: LocaleService,    public modal: NgbActiveModal    ) {     
-    this.localeService.getByModule('menu').subscribe((response) =>  {
+    this.localeService.getByModule('config').subscribe((response) =>  {
      this.locales = this.localeService.transformForView(response);
    });
 
