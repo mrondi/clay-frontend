@@ -10,6 +10,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { MenuMainComponent } from './components/menu-main/menu-main.component';
 import { DefaultComponent } from './layouts/default/default.component';
 import { LangPipe } from './pipes/lang.pipe';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ConfigComponent } from './components/config/config.component';
 
 @NgModule({
   declarations: [
@@ -18,12 +20,14 @@ import { LangPipe } from './pipes/lang.pipe';
     HeaderComponent,
     MenuMainComponent,
     DefaultComponent,
-    LangPipe
+    LangPipe,
+    ConfigComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
