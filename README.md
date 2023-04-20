@@ -11,7 +11,7 @@
 
 ## Deploy Productivo
 
-El frontend fue desarrollado en **Angular 14** y esta desplegado en un Droplet de **Digital Ocean** bajo **Apache 2**.
+El frontend fue desarrollado en [Angular](https://angular.io/) y esta desplegado en un Droplet de [Digital Ocean](https://www.digitalocean.com/) bajo [Apache 2](https://httpd.apache.org/).
 
 <img width="100%" alt="Captura de pantalla 2023-04-17 a las 18 15 27" src="https://user-images.githubusercontent.com/898971/232612480-14032e4d-b060-469f-881b-dfe73588c4d0.png">
 
@@ -34,7 +34,7 @@ El cambio de idioma desde el front se realiza desde la barra de menu, icono de c
 
 ## Soporte HTML
 
-Se soporta HTML en las cadenas de traduccion usando el Property Binding "innerHTML" en el elemento html. 
+Se soporta HTML en las cadenas de traduccion usando el property pinding "**innerHTML**" en el elemento html. 
 
 **Ejemplo**
 
